@@ -1,4 +1,4 @@
-package ConditionChecking;
+package condition.checking;
 
 public class ConditionalStatement {
 
