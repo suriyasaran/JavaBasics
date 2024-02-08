@@ -14,13 +14,13 @@ public class Practice1 {
 		
 		
 		System.out.println("Enter e mail:");
-		int email = c.nextInt();
-	
-			
+		String email = c.nextLine();
+		
+
 		
 		
 		
 	}
 	
 	
-}
+} 

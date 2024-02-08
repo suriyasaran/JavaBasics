@@ -1,11 +1,11 @@
 package task;
 
-public class Patternprint2 {
+public class Patternprint3 {
 	public static void main(String[]args) {
-		 String s = "Racecar";	 
-		 for (int i = s.length()-1; i >=0; i--) {
+		 String s = "Racecar";		
+		 for (int i = 0; i <s.length(); i++) {
 			 for (int j=0; j<s.length(); j++) {
-				 if(i == j)
+				 if(i+j==s.length()-1)					 
 				 {
 					 System.out.print(s.charAt(i));
 				 }
