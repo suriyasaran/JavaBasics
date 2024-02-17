@@ -15,7 +15,7 @@ public class Practice1 {
 		
 		System.out.println("Enter e mail:");
 		String email = c.nextLine();
-		
+		System.out.println("your mail is"+email);
 
 		
 		

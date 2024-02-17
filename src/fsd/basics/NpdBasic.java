@@ -1,11 +1,13 @@
 package fsd.basics;
-
+import java.util.Scanner;
 public class NpdBasic {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+
+Scanner c= new Scanner(System.in);
 System.out.println("test");
-ClassExample classExample = new ClassExample();
+int n = c.nextInt();
 int[] arr= {1,2,3,4};
 String[] strArr= {"ranjith","ram","vinoth"};
 	}

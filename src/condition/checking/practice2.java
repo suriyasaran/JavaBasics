@@ -6,10 +6,12 @@ public class practice2 {
 		Scanner Scanner = new Scanner(System.in);
 		System.out.println("Hello");
 		String b = Scanner.nextLine();
+		int a =10;
+		String c = "hello";
 
-		System.out.println("a");
-		System.out.println("b");
-		System.out.println("c");
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
 		
 
 	}

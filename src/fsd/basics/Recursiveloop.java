@@ -30,8 +30,9 @@ public class Recursiveloop {
 		 }
 		 asc(arr,i,j);
 	 }
-	 return arr;
+	return 0;
 }
+
 public static int[] desc(int[] arr,int i,int j) {
 	if (j<arr.length-1) {
 		j++;
@@ -39,8 +40,12 @@ public static int[] desc(int[] arr,int i,int j) {
 	else {
 		j=0; i++;
 	}
-	if (i<arr.length)
+	if (i<arr.length) {
+		
 		
 	}
-
+	desc(arr,i,j);
 }
+}
+
+
